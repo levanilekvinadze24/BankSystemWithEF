@@ -77,7 +77,8 @@ It includes account types with reward-points logic, unique account number genera
 - **OOAD Class Diagram**: `images/alltypes.png`  
 - **Database Schema**: `images/banksystem.png`
 
-Both are included for quick orientation of types and relationships
+Both are included for quick orientation of types and relationships.
+
 ---
 
 ## Getting Started
