@@ -77,28 +77,7 @@ It includes account types with reward-points logic, unique account number genera
 - **OOAD Class Diagram**: `images/alltypes.png`  
 - **Database Schema**: `images/banksystem.png`
 
-Both are included for quick orientation of types and relationships.
-
-## Structure
-
-BankSystemWithEF/
-├─ BankSystem.Domain/            # OOAD domain classes & helpers
-│  ├─ Accounts/                  # BankAccount + Standard/Silver/Gold
-│  ├─ Generators/                # IUniqueNumberGenerator & implementations
-│  └─ Services/                  # ValidatorService, CryptoHelper
-├─ BankSystem.DAL/               # EF Core infrastructure
-│  ├─ Entities/                  # Entity classes (Data Annotations)
-│  ├─ BankSystemDbContext.cs     # DbContext
-│  └─ Migrations/                # EF migrations (if present)
-├─ BankSystem.Services/          # LINQ projections + services
-│  ├─ Models/                    # BankAccountFullInfoModel, AccountOwnerTotalBalanceModel
-│  └─ Services/                  # AccountService, OwnerService
-├─ images/                       # Diagrams (OOAD & DB)
-│  ├─ alltypes.png
-│  └─ banksystem.png
-├─ ooad.md                       # OOAD assignment spec (repo doc)
-└─ entity-framework-core.md      # EF Core assignment spec (repo doc)
-
+Both are included for quick orientation of types and relationships
 ---
 
 ## Getting Started
